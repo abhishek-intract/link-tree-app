@@ -2,61 +2,48 @@ import AppLogo from "./assets/icons/app-logo.svg";
 import Official from "./assets/icons/official.svg";
 import Twitter from "./assets/icons/twitter.svg";
 import LinkedIn from "./assets/icons/linkedin.svg";
-// import Medium from "./assets/icons/medium.svg";
-import Youtube from "./assets/icons/youtube.svg";
-import Discord from "./assets/icons/discord.svg";
+import Medium from "./assets/icons/medium.svg";
 import GitHub from "./assets/icons/github.svg";
 
 const config = {
   logoUrl: AppLogo,
   favicon: "../favicon.ico",
-  title: "Spheron Link Tree",
+  title: "Intract",
   description:
-    "Give your dApps, the wings of decentralised infrastructure with Spheron!",
+    "A Comprehensive Suite of Web3 Marketing & Community Engagement Products",
   links: [
     {
       key: "official",
       label: "Official Website",
       iconUrl: Official,
-      redirectUrl: "https://spheron.network/",
+      redirectUrl: "https://www.intract.io/",
     },
     {
       key: "twitter",
       label: "Twitter",
       iconUrl: Twitter,
-      redirectUrl: "https://twitter.com/SpheronHQ",
+      redirectUrl: "https://twitter.com/IntractBuzz",
     },
     {
       key: "linkedin",
       label: "LinkedIn",
       iconUrl: LinkedIn,
-      redirectUrl: "https://www.linkedin.com/company/spheron/",
+      redirectUrl: "https://www.linkedin.com/company/intract-buzz/",
     },
-    // {
-    //   "key": "medium",
-    //   "label": "Medium",
-    //   "iconUrl": Medium,
-    //   "redirectUrl": "",
-    // },
-    {
-      key: "youtube",
-      label: "YouTube",
-      iconUrl: Youtube,
-      redirectUrl: "https://www.youtube.com/channel/UCIe3FlAWg06kGOrm1-c8oJg",
-    },
-    {
-      key: "discord",
-      label: "Discord",
-      iconUrl: Discord,
-      redirectUrl: "https://discord.com/invite/ahxuCtm",
-    },
+     {
+       "key": "medium",
+       "label": "Medium",
+       "iconUrl": Medium,
+       "redirectUrl": "https://medium.com/@intractweb3",
+     },
     {
       key: "github",
       label: "GitHub",
       iconUrl: GitHub,
-      redirectUrl: "https://github.com/spheronFdn/",
+      redirectUrl: "https://github.com/intract-web3/",
     },
   ],
 };
+
 
 export default config;

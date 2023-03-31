@@ -28,7 +28,7 @@ const LinkTree = () => {
               <div className="linktree-link">
                 <div className="linktree-link-info">
                   <span className="linktree-link-logo">
-                    <img src={link.iconUrl} alt="link logo" />
+                    <img src={link.iconUrl} alt="link logo" width="40"/>
                   </span>
                   <span className="linktree-link-label">{link.label}</span>
                 </div>
