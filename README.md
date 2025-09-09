@@ -1,34 +1,81 @@
-# Custom Linktree Utilising Web3 Infra  :muscle: 
-Now power your marketing and branding with your custom domain utilising Spheron.
+# Link Tree App
 
-## Why on Web3 Infrastructure ?
+A customizable Link Tree application built with React that allows you to showcase multiple links in a clean, organized interface. This application can be deployed on Web3 infrastructure using Spheron.
 
-Web3 Infrastructure comes with its pros on top of what you get on Web2. 
-Some of the examples are, your links generated here will never die if you keep your ipfs hash handy somewhere safe and any one node has pinned it.
+## About
 
-## Why use Spheron?
-You can use any app to deploy this on the decentralised network but 
-Spheron makes the entire process of pinning your hash and backing up for a longer duration of time makes much easier. Apart from it, users can also easily attach their domain via Spheron and serve millions with our best-in-class CDN build on top of the Web3 Infrastructure layer.
+This Link Tree App provides a simple way to share multiple links through a single page. It's perfect for social media profiles, personal websites, or any situation where you want to direct users to various resources.
 
-## How to launch ?
+## Features
 
-There are multiple way's to launch your own custom domain based linktree app for your self utilising Spheron. 
-The best way to achieve the same is via forking or cloning to your local and launching it in few lines or few clicks depending on what you like the most. 
+- Customizable profile with logo and description
+- Easy-to-configure links with icons
+- Responsive design that works on all devices
+- Built with React and TypeScript
+- Ready for deployment on Web3 infrastructure
 
-### Follow these steps to launch via Spheron UI:
+## Getting Started
 
-- Fork this repo
-- Open https://app.spheron.network
-- Install Github Spheron App if you have not yet and give the access to repo
-- Choose your favourite Decentralised Network 
-- Hit on a Deploy 
+### Prerequisites
 
+- Node.js (v14 or higher)
+- npm or yarn
 
-### Follow this steps to launch it via Spheron CLI:
+### Installation
 
-Coming Soon.........
+1. Clone the repository:
+   ```
+   git clone https://github.com/abhishek-intract/link-tree-app.git
+   cd link-tree-app
+   ```
 
-## Support Spheron 
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-If you loved utilising this template, please do share it your friends over social media tagging Spheron and you can also add powered by Spheron template in your custom link.
-This will help us to grow and expand Web3 Infra presence
+3. Start the development server:
+   ```
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Customization
+
+You can customize your Link Tree by editing the `src/config.ts` file:
+
+- Change the logo, title, and description
+- Add, remove, or modify links
+- Update icons for each link
+
+## Deployment
+
+### Standard Deployment
+
+Build the application for production:
+```
+npm run build
+# or
+yarn build
+```
+
+The build artifacts will be stored in the `build/` directory, ready to be deployed to any static hosting service.
+
+### Web3 Deployment with Spheron
+
+This application is designed to be easily deployed on Web3 infrastructure using Spheron:
+
+1. Fork this repository
+2. Visit [https://app.spheron.network](https://app.spheron.network)
+3. Connect your GitHub account and select the repository
+4. Choose your preferred decentralized network
+5. Click "Deploy"
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
